@@ -1,18 +1,22 @@
 {
   "teams" : {
     "blue" : {
-      "isButtonPressed" : false,
-      "timestamp" : 0
+      "enabled" : false,
+      "isButtonPressed" : true,
+      "timestamp" : 1619190293415
     },
     "green" : {
-      "isButtonPressed" : false,
-      "timestamp" : 0
+      "enabled" : false,
+      "isButtonPressed" : true,
+      "timestamp" : 1619190334146
     },
     "red" : {
+      "enabled" : true,
       "isButtonPressed" : false,
       "timestamp" : 0
     },
     "yellow" : {
+      "enabled" : true,
       "isButtonPressed" : false,
       "timestamp" : 0
     }
