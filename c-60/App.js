@@ -29,7 +29,7 @@ showTeamsRanks=()=>{
   
          }
     }
-   // console.log(teams+'ruby');
+   // console.log(teams+'ruby'); 
 
       teams.sort(function(team1,team2){
         return team1.timestamp-team2.timestamp
@@ -46,19 +46,23 @@ showTeamsRanks=()=>{
    var lucky=db.ref('teams/').set({
      blue: {
      isButtonPressed:false,
-     timestamp:0
+     timestamp:0,
+     enabled:true
      },
       red: {
      isButtonPressed:false,
-     timestamp:0
+     timestamp:0,
+     enabled:true
      },
      green: {
      isButtonPressed:false,
-     timestamp:0
+     timestamp:0,
+     enabled:true
      },
       yellow: {
      isButtonPressed:false,
-     timestamp:0
+     timestamp:0,
+     enabled:true
      }
    });
 
